@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(43, 43, 43);
+}
+@font-face {
+    font-family: 'title-font';
+    src: url(./taking-store.ttf);
+}
+#div-1 {
+    background-color: black;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.585);
+    margin-left: 570px;
+    margin-top: 100px;
+    display: flex;
+}
+#div-2 {
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    border-radius: 10px;
+    width: 1520px;
+    height: 100px;
+    margin-top: 45px;
+    display: flex;
+}
+.b-1 {
+    color: red;
+}
+#box-1 {
+    background-color: rgb(39, 39, 39);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    border-radius: 25px;
+    margin-top: 130px;
+    margin-left: -220px;
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    width: 200px;
+    height: 30px;
+    display: flex;
+}
+#box-2 {
+    background-color: rgb(39, 39, 39);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    border-radius: 25px;
+    margin-top:230px;
+    margin-left: -205px;
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    width: 200px;
+    height: 30px;
+    display: flex;
+}
+#submitBtn {
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    border-radius: 10px;
+    width: 100px;
+    height: 20px;
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    text-decoration: none;
+    padding-right: 1px;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 360px;
+    margin-left: -185px;
+    display: flex;
+}
+#submitBtn:hover {
+    background-color: rgb(0, 255, 136);
+    color: black;
+}
+#a-public {
+    background-color: rgb(43, 43, 43);
+    border-color: rgb(0, 255, 136);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    padding: 5px 5px;
+    font-family: title-font;
+    color: rgb(0, 255, 136);
+    text-decoration: none;
+}
+#a-public:hover {
+    background-color: rgb(0, 255, 136);
+    color: black;
+}
+#p-1 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-left: 80px;
+    display: flex;
+}
+#p-2 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 15px;
+    margin-top: 30px;
+    display: flex;
+}
+#p-3 {
+    color: white;
+    font-family: title-font;
+    text-align: center;
+    margin-left: 545px;
+}
+#p-4 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 35px;
+    margin-left: -910px;
+    margin-top: 20px;
+}
+#p-5 {
+    color: white;
+    font-family: title-font;
+    margin-top: 58px;
+    margin-left: -30px;
+}

@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+@font-face {
+    font-family: 'title-font';
+    src: url(./taking-store.ttf);
+}
+.div-folder {
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.div-folder:hover {
+    background-color: rgb(0, 255, 136);
+    box-shadow: 10px 10px 15px rgba(0, 255, 136, 0.294);
+}
+.div-folder:hover .folder-p {
+    color: black;
+}
+.folder-p {
+    color: white;
+    font-family: title-font;
+    padding-left: 10px;
+}
+#a-exit {
+    margin-top: 10px;
+    background-color: black;
+    color: rgb(0, 255, 136);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 255, 136);
+    font-family: title-font;
+    text-decoration: none;
+    padding: 5px 20px;
+    width: 30px;
+    border-radius: 10px;
+    display: flex;
+}
+#a-exit:hover {
+    background-color: red;
+    color: black;
+    border-color: red;
+}
+#p-1 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.p-3 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 30px;
+}
+#p-6 {
+    color: white;
+    font-family: title-font;
+    font-size: 45px;
+    margin-top: 300px;
+    margin-left: 1300px;
+}
+#p-7 {
+    color: rgb(0, 255, 136);
+    font-family: title-font;
+    font-size: 20px;
+    margin-left: 1400px;
+    margin-top: -50px;
+}
